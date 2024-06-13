@@ -26,7 +26,7 @@ class PurchaseFactory extends Factory
             'shop_id' => $shop->id,
             'price' => $this->faker->randomFloat(2, 10, 100),
             'currency' => $this->faker->randomElement(CurrencyEnum::values()),
-            'document_url' => $this->faker->url(),
+            'document_url' => $this->faker->imageUrl(),
         ];
     }
 }
