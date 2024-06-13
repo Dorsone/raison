@@ -1,7 +1,7 @@
 <template>
     <div class="w-[50%] m-auto mt-40 grid grid-cols-6 gap-4">
         <fwb-input
-            placeholder="enter your search query"
+            placeholder="enter search query"
             size="lg"
             class="col-start-1 col-end-3"
         >
