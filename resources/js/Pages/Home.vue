@@ -1,7 +1,7 @@
 <template>
     <div class="w-[50%] m-auto mt-40 grid grid-cols-6 gap-4">
         <fwb-input
-            placeholder="enter search query"
+            placeholder="Введите запрос"
             size="lg"
             class="col-start-1 col-end-3"
         >
@@ -13,12 +13,12 @@
                 </svg>
             </template>
             <template #suffix>
-                <fwb-button>Search</fwb-button>
+                <fwb-button>Поиск</fwb-button>
             </template>
         </fwb-input>
 
         <fwb-button-group class="col-end-8 col-span-2">
-            <fwb-button size="xs" color="default">ALL</fwb-button>
+            <fwb-button size="xs" color="default">ВСЕ</fwb-button>
             <fwb-button size="xs" color="alternative">USD</fwb-button>
             <fwb-button size="xs" color="alternative">EUR</fwb-button>
             <fwb-button size="xs" color="alternative">RUB</fwb-button>
@@ -41,8 +41,8 @@
                     <fwb-table-cell>Laptop</fwb-table-cell>
                     <fwb-table-cell>$2999</fwb-table-cell>
                     <fwb-table-cell>
-                        <fwb-button size="sm" color="green" class="mr-2">Edit</fwb-button>
-                        <fwb-button size="sm" color="red">Delete</fwb-button>
+                        <fwb-button size="sm" color="green" class="mr-2">Изменить</fwb-button>
+                        <fwb-button size="sm" color="red">Удалить</fwb-button>
                     </fwb-table-cell>
                 </fwb-table-row>
                 <fwb-table-row>
@@ -51,8 +51,8 @@
                     <fwb-table-cell>Laptop PC</fwb-table-cell>
                     <fwb-table-cell>$1999</fwb-table-cell>
                     <fwb-table-cell>
-                        <fwb-button size="sm" color="green" class="mr-2">Edit</fwb-button>
-                        <fwb-button size="sm" color="red">Delete</fwb-button>
+                        <fwb-button size="sm" color="green" class="mr-2">Изменить</fwb-button>
+                        <fwb-button size="sm" color="red">Удалить</fwb-button>
                     </fwb-table-cell>
                 </fwb-table-row>
                 <fwb-table-row>
@@ -61,8 +61,8 @@
                     <fwb-table-cell>Accessories</fwb-table-cell>
                     <fwb-table-cell>$99</fwb-table-cell>
                     <fwb-table-cell>
-                        <fwb-button size="sm" color="green" class="mr-2">Edit</fwb-button>
-                        <fwb-button size="sm" color="red">Delete</fwb-button>
+                        <fwb-button size="sm" color="green" class="mr-2">Изменить</fwb-button>
+                        <fwb-button size="sm" color="red">Удалить</fwb-button>
                     </fwb-table-cell>
                 </fwb-table-row>
             </fwb-table-body>
