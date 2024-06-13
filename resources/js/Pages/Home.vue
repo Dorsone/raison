@@ -67,6 +67,8 @@
                 </fwb-table-row>
             </fwb-table-body>
         </fwb-table>
+
+        <fwb-button class="col-end-8 col-span-1" color="default">Добавить</fwb-button>
     </div>
 </template>
 
